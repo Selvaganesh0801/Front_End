@@ -1,0 +1,94 @@
+*{
+	margin:0px;
+	padding:0px;
+	/* background-color:teal; */
+	display-inline:block;
+	box-bolder:box;
+}
+body{
+	background-color:teal;
+}
+.hole{
+	background-color:teal;
+}
+.form{
+	background-color:maroon;
+	margin-left:360px;
+	margin-top:100px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border:solid;
+	width:700px;
+	height:430px;
+	color:white;
+	border:none;
+}
+.name,.mail,.pass,.num,.gen,.lang,.code,.about{
+	margin-top:24px;
+	margin-left:120px;
+	margin-bottom:10px;
+	font-size:18px;
+	font-family:sans-serif;
+}
+.input{
+	margin-left:620px;
+	margin-top:-428px;
+	font-size:sens-serif;
+
+}
+.box,.mail-box{
+	margin-top:9px;
+	margin-bottom:13px;
+	width:100px;
+	height:30px;
+}
+.phone,.male{
+	margin-top:15px;
+	margin-bottom:22px;
+	font-family:sans-serif;
+	color:white;
+}
+.select,.area,.txt-area{
+	margin-top:16px;
+	font-family:sans-serif;
+}
+button{
+	margin-top:15px;
+	margin-left:480px;
+	padding:10px;
+	width:450px;
+	background-color:white;
+	border:none;
+	border-radius:5px;
+	font-size:18px;
+	font-family:sans-serif;
+	
+}
+.box input{
+	height:28px;
+	width:260px;
+}
+.mail-box input{
+	height:28px;
+	width:260px;
+}.pass-box input{
+	height:28px;
+	width:260px;
+}
+.phone input{
+	height:28px;
+	width:260px;
+}
+.select select{
+	height:28px;
+	width:120px;
+	padding:2px;
+}
+.area input{
+	height:28px;
+	width:260px;
+}
+.txt-area textarea{
+	height:45px;
+	width:258px;
+}

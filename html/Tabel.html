@@ -1,0 +1,80 @@
+<!Doctype html>
+
+<html>
+
+<head>
+<title>Table Creation</title>
+<style>
+table{
+margin-left:406px;
+border:3px solid black;
+border-collapse:collapse;
+font-size:20px;
+background-color:white;
+} 
+th,td,tr{
+border:2px solid black;
+padding:20px;
+width:100px;
+}
+p{
+border:3px solid white;
+display:inline-block;
+margin-top:180px;
+margin-left:568px;
+text-align:center;
+font-size:21px;
+}
+body{
+background-color:teal;
+}
+.avg{
+background-color:turquoise;
+}
+.ht,.wt{
+background-color:gray;
+color:white;
+}
+.blank{
+background-color:salmon;
+}
+.gen{
+background-color:lightgreen;
+}
+</style>
+</head>
+
+<body>
+<p><mark>A test table with merged cells</mark></p>
+
+<table>
+<tr>
+<th rowspan="2" class="blank"></th>
+<th colspan="2" class="avg">Average</th>
+<th rowspan="2" class="blank">Red <br> eyes</th>
+</tr>
+
+<tr>
+<th class="ht">height</th>
+<th class="wt">weight</th>
+</tr>
+
+<tr>
+<th class="gen">Male</th>
+<td>1.9</td>
+<td>0.003</td>
+<td>40%</td>
+</tr>
+
+<tr>
+<th class="gen">Female</th>
+<td>1.7</td>
+<td>0.002</td>
+<td>43%</td>
+</tr>
+
+
+</table>
+
+</body>
+</html>

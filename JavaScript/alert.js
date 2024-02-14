@@ -1,0 +1,1 @@
+alert("Just Click And Move On");
